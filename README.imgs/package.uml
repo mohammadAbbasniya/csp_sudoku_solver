@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>sudoku</OriginalElement>
+  <nodes>
+    <node x="-62.61021505376354" y="671.9913978494625">sudoku.FC_MRV_Solver</node>
+    <node x="1129.0396774193543" y="806.3843010752688">sudoku.MAC_MCV_Solver</node>
+    <node x="720.1945161290321" y="794.8843010752688">sudoku.AC3_FC_MRV_Solver</node>
+    <node x="-72.50735483870963" y="137.42761290322588">sudoku.SudokuSolver</node>
+    <node x="673.3575268817203" y="153.3275698924731">sudoku.Variable</node>
+    <node x="203.87419354838698" y="531.3193548387096">sudoku.MinConf_LocalSearch_Solver</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="sudoku.MAC_MCV_Solver" target="sudoku.AC3_FC_MRV_Solver" relationship="GENERALIZATION">
+      <point x="-92.34525023655874" y="5.401146838709337" />
+      <point x="1012.1040777634407" y="860.7854479139781" />
+      <point x="144.40956163440865" y="-2.0854603010756136" />
+    </edge>
+    <edge source="sudoku.FC_MRV_Solver" target="sudoku.Variable" relationship="TO_MANY">
+      <point x="49.25" y="-60.5" />
+      <point x="85.13978494623646" y="759.7870967741935" />
+      <point x="789.6075268817204" y="759.7870967741935" />
+      <point x="789.6075268817204" y="237.0" />
+      <point x="863.9539784946237" y="237.0" />
+      <point x="63.532150537634564" y="115.5" />
+    </edge>
+    <edge source="sudoku.AC3_FC_MRV_Solver" target="sudoku.Variable" relationship="TO_MANY">
+      <point x="73.75" y="-60.5" />
+      <point x="941.4445161290321" y="832.0" />
+      <point x="881.8048387096774" y="832.0" />
+      <point x="881.8048387096774" y="247.0" />
+      <point x="789.6075268817204" y="247.0" />
+      <point x="789.6075268817204" y="237.0" />
+      <point x="863.9539784946237" y="237.0" />
+      <point x="63.532150537634564" y="115.5" />
+    </edge>
+    <edge source="sudoku.MinConf_LocalSearch_Solver" target="sudoku.Variable" relationship="TO_MANY">
+      <point x="65.75" y="-93.5" />
+      <point x="401.124193548387" y="624.8193548387096" />
+      <point x="708.5376344086022" y="624.8193548387096" />
+      <point x="708.5376344086022" y="247.0" />
+      <point x="789.6075268817204" y="247.0" />
+      <point x="789.6075268817204" y="237.0" />
+      <point x="863.9539784946237" y="237.0" />
+      <point x="63.532150537634564" y="115.5" />
+    </edge>
+    <edge source="sudoku.MinConf_LocalSearch_Solver" target="sudoku.SudokuSolver" relationship="GENERALIZATION">
+      <point x="-3.4934673892472574" y="-93.32956173763432" />
+      <point x="331.8807261591397" y="492.04301075268813" />
+      <point x="128.49264516129037" y="492.04301075268813" />
+      <point x="0.0" y="148.5" />
+    </edge>
+    <edge source="sudoku.FC_MRV_Solver" target="sudoku.SudokuSolver" relationship="GENERALIZATION">
+      <point x="-7.0989368086021045" y="-61.29385324731197" />
+      <point x="28.790848137634356" y="492.04301075268813" />
+      <point x="128.49264516129037" y="492.04301075268813" />
+      <point x="0.0" y="148.5" />
+    </edge>
+    <edge source="sudoku.SudokuSolver" target="sudoku.Variable" relationship="CREATE">
+      <point x="201.49316129032215" y="-35.673763440860284" />
+      <point x="736.8896774193547" y="250.25384946236557" />
+      <point x="-63.53215053763442" y="115.5" />
+    </edge>
+    <edge source="sudoku.AC3_FC_MRV_Solver" target="sudoku.FC_MRV_Solver" relationship="GENERALIZATION">
+      <point x="-141.7826881720431" y="-4.1292473118281805" />
+      <point x="725.911827956989" y="855.3843010752688" />
+      <point x="35.88978494623646" y="855.3843010752688" />
+      <point x="0.0" y="60.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.7003012048192776" showDependencies="true" x="130.8903225806452" y="440.4619354838708" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
